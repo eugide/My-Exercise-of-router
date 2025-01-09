@@ -16,13 +16,13 @@ function Layout() {
                 <img className="w-[150px] h-[20px] mx-[180px]" src="/logo.png" alt="" />
                 <div className="flex gap-3 pl-[120px]">
                   <Link className="text-white hover:underline text-[10px] font-semibold" to="/falcon">FALCON 9</Link>
-                  <Link className="text-white hover:underline text-[10px] font-semibold" to="/">FALCON HEAVY</Link>
-                  <Link className="text-white hover:underline text-[10px] font-semibold" to="/">DRAON</Link>
-                  <Link className="text-white hover:underline text-[10px] font-semibold" to="/">STARSHIP</Link>
-                  <Link className="text-white hover:underline text-[10px] font-semibold" to="/">HUMAN SPACEFLIGHT</Link>
-                  <Link className="text-white hover:underline text-[10px] font-semibold" to="/">RIDESHARE</Link>
-                  <Link className="text-white hover:underline text-[10px] font-semibold" to="/">FALCON 9</Link>
-                  <Link className="text-white hover:underline text-[10px] font-semibold" to="/">TOP</Link>
+                  <Link className="text-white hover:underline text-[10px] font-semibold" to="heavy">FALCON HEAVY</Link>
+                  <Link className="text-white hover:underline text-[10px] font-semibold" to="/dragon">DRAON</Link>
+                  <Link className="text-white hover:underline text-[10px] font-semibold" to="/starship">STARSHIP</Link>
+                  <Link className="text-white hover:underline text-[10px] font-semibold" to="/human">HUMAN SPACEFLIGHT</Link>
+                  <Link className="text-white hover:underline text-[10px] font-semibold" to="/ridership">RIDESHARE</Link>
+                  <Link className="text-white hover:underline text-[10px] font-semibold" to="/falcon9">FALCON 9</Link>
+                  <Link className="text-white hover:underline text-[10px] font-semibold" to="/top">TOP</Link>
                 </div>
               </div>
         
@@ -39,7 +39,6 @@ function Layout() {
       <SectionC />
       <SectionE />
       <SectionF />
-      
       <Footer />
     </>
   );
